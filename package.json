@@ -4,7 +4,8 @@
   "description": "crawler for learning node api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/JoeZheng2015/crawler/issues"
   },
-  "homepage": "https://github.com/JoeZheng2015/crawler#readme"
+  "homepage": "https://github.com/JoeZheng2015/crawler#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
